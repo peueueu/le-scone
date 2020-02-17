@@ -1,0 +1,12 @@
+@import "reset";
+@import "grid";
+
+p {
+  color: blue;
+  @include d(m) {
+    background: #84e;
+  }
+  @include d(s) {
+    color: #ffdd32;
+  }
+}

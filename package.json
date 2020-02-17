@@ -1,0 +1,13 @@
+{
+  "name": "le-scone",
+  "version": "1.0.0",
+  "description": "origamid sass course",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/style.scss css/style.css -w"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
