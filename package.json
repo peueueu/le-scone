@@ -4,7 +4,8 @@
   "description": "origamid sass course",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass sass/style.scss css/style.css -w"
+    "compile:sass": "node-sass sass/style.scss css/style.css -w",
+    "build:sass": "node-sass --include-path sass sass/style.scss css/style.css --output-style compressed"
   },
   "license": "MIT",
   "devDependencies": {
