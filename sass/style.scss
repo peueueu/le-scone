@@ -1,12 +1,8 @@
+// Gerais
 @import "reset";
 @import "grid";
+@import "variaveis-e-mixins";
+@import "geral";
 
-p {
-  color: blue;
-  @include d(m) {
-    background: #84e;
-  }
-  @include d(s) {
-    color: #ffdd32;
-  }
-}
+//Pages
+@import "intro";
